@@ -15,8 +15,8 @@ body{
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    width: 70%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     font-size: 18px;
     margin: auto;
 }
@@ -26,8 +26,8 @@ body{
 
 .container{
     display: grid;
-    width: 100%;
-    height: 100vh;
+    width: 70%;
+    height: 100%;
     margin: auto;
     padding: 50px;
 }
@@ -37,10 +37,10 @@ body{
     display: flex;
     border: 2px;
     padding: 50px;
-    font-size: small;
     animation-name: build;
     animation-duration: 10s;
     animation-iteration-count: 3;
+    width: 100%;
 }
 
 .im{
@@ -97,7 +97,6 @@ body{
     left: 60px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: small;
 }
 
 .sub1:hover{
@@ -106,33 +105,38 @@ body{
 
 .box1{
     float: left;
+    width: 50%;
 }
 
 .box2{
     float: right;
-    width: 300px;
+    width: 50%;
 }
 
 .together{
     background-color: hsl(0, 0%, 100%);
     display: grid;
     border: 10px solid hsl(0, 0%, 100%);
-    font-size: small;
+    animation-name: together;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
 }
 
 .grow{
     display: flex;
     border: 1px solid hsl(193, 100%, 96%);
     margin: 20px;
-    font-size: small;
+    width: 100%;
 }
 
 .box3{
     padding: 20px;
+    width: 50%;
 }
 
 .box4{
     padding: 20px;
+    width: 50%;
 }
 
 .land1{
@@ -156,15 +160,17 @@ body{
     display: flex;
     border: 1px solid hsl(193, 100%, 96%);
     margin: 20px;
-    font-size: small;
+    width: 100%;
 }
 
 .box5{
     padding: 20px;
+    width: 50%;
 }
 
 .box6{
     padding: 20px;
+    width: 50%;
 }
 
 .land2{
@@ -188,15 +194,17 @@ body{
     display: flex;
     border: 1px solid hsl(193, 100%, 96%);
     margin: 20px;
-    font-size: small;
+    width: 100%;
 }
 
 .box7{
     padding: 20px;
+    width: 50%;
 }
 
 .box8{
     padding: 20px;
+    width: 50%;
 }
 
 .land3{
@@ -228,7 +236,6 @@ body{
     margin: auto;
     position: relative;
     top: 40px;
-    font-size: x-small;
 }
 
 .land4{
@@ -259,7 +266,6 @@ body{
     width: 100%;
     height: 100%;
     color: hsl(0, 0%, 100%);
-    font-size: x-small;
 }
 
 .box10{
@@ -303,6 +309,7 @@ body{
 
 .box11{
     display: grid;
+    width: 25%;
 }
 
 .box11 li{
@@ -315,6 +322,7 @@ body{
 
 .box12{
     display: grid;
+    width: 25%;
 }
 
 .box12 li{
@@ -327,21 +335,23 @@ body{
 
 .box13{
     display: flex;
+    width: 25%;
 }
 
 .logo{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     position: relative;
-    top: 60px;
-    left: 60px;
+    top: 40px;
+    left: 80px;
     padding: 5px;
 }
 
 .copy{
     position: relative;
-    top: 120px;
+    top: 80px;
     left: 0px;
+    float: right;
 }
 
 /* The animation code */
@@ -351,12 +361,16 @@ body{
     to {background-color: hsl(192, 100%, 9%);}
 }
 
+@keyframes together {
+    from {background-color: hsl(0, 0%, 100%);}
+    to {background-color: hsl(322, 100%, 66%);}
+}
+
 /* Media query desktop */
 
 @media screen and (max-width:1440px) {
     body{
         flex-direction: row;
-        width: 1440px;
         background-image: url('images/bg-hero-desktop.svg');
     }   
 }
@@ -366,7 +380,6 @@ body{
 @media screen and (min-width:375px) {
     body{
         flex-direction: column;
-        width: 375px;
         background-image: url('images/bg-hero-mobile.svg');
     }
     
