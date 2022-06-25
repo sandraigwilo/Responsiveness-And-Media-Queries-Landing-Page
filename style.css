@@ -41,6 +41,7 @@ body{
     animation-duration: 10s;
     animation-iteration-count: 3;
     width: 100%;
+    text-align: left;
 }
 
 .im{
@@ -48,7 +49,7 @@ body{
     height: 10px;
     position: relative;
     top: -40px;
-    left: -110px;   
+    left: -20px;   
 }
 
 .land{
@@ -71,7 +72,7 @@ body{
     background-color: hsl(322, 100%, 66%);
     position: relative;
     top: 30px;
-    left: -60px;
+    left: -30px;
     padding: 10px;
     border: none;
     border-radius: 20px;
@@ -88,13 +89,13 @@ body{
 
 .sub1{
     background-color: hsl(0, 0%, 100%);
-    padding: 10px;
+    padding: 5px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     position: relative;
-    top: -30px;
-    left: 60px;
+    top: -220px;
+    left: 300px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
@@ -116,17 +117,17 @@ body{
 .together{
     background-color: hsl(0, 0%, 100%);
     display: grid;
-    border: 10px solid hsl(0, 0%, 100%);
     animation-name: together;
     animation-duration: 5s;
     animation-iteration-count: 2;
+    text-align: left;
 }
 
 .grow{
     display: flex;
     border: 1px solid hsl(193, 100%, 96%);
-    margin: 20px;
-    width: 100%;
+    margin: 40px 20px 10px 40px;
+    width: 90%;
 }
 
 .box3{
@@ -140,18 +141,12 @@ body{
 }
 
 .land1{
-    position: relative;
-    top: 0px;
-    left: -0px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding-bottom: 10px;
 }
 
 .page1{
-    position: relative;
-    top: 0px;
-    left: 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -159,8 +154,8 @@ body{
 .flow{
     display: flex;
     border: 1px solid hsl(193, 100%, 96%);
-    margin: 20px;
-    width: 100%;
+    margin: 30px 20px 20px 40px;
+    width: 90%;
 }
 
 .box5{
@@ -174,18 +169,12 @@ body{
 }
 
 .land2{
-    position: relative;
-    top: -0px;
-    left: 0px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding-bottom: 10px;
 }
 
 .page2{
-    position: relative;
-    top: -0px;
-    left: -10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -193,8 +182,8 @@ body{
 .users{
     display: flex;
     border: 1px solid hsl(193, 100%, 96%);
-    margin: 20px;
-    width: 100%;
+    margin: 20px 30px 10px 40px;
+    width: 90%;
 }
 
 .box7{
@@ -208,25 +197,19 @@ body{
 }
 
 .land3{
-    position: relative;
-    top: -0px;
-    left: 0px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding-bottom: 10px;
 }
 
-.page4{
-    position: relative;
-    top: 0px;
-    left: -10px;
+.page3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
 .img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .box9{
@@ -236,6 +219,7 @@ body{
     margin: auto;
     position: relative;
     top: 40px;
+    text-align: center;
 }
 
 .land4{
@@ -266,6 +250,9 @@ body{
     width: 100%;
     height: 100%;
     color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .box10{
@@ -273,64 +260,53 @@ body{
     width: 25%;
     height: 25%;
     text-align: left;
+    padding-left: 40px;
 }
 
 .image{
     width: 70px;
     height: 10px;
     position: relative;
-    top: 10px;
-    left: -10px;   
+    top: 0px;
+    left: -20px;   
 }
 
 .box10, .loc{
     list-style-image: url(images/icon-location.svg);
-    padding: 5px;
-    position: relative;
-    top: 20px;
-    left: 10px;
+    margin-top: 20px;
 }
 
 .box10, .num{
     list-style-image: url(images/icon-phone.svg);
-    padding: 5px;
-    position: relative;
-    top: 15px;
-    left: 10px;
+    margin-top: 20px;
 }
 
 .box10, .em{
     list-style-image: url(images/icon-email.svg);
-    padding: 5px;
-    position: relative;
-    top: 10px;
-    left: 10px;
+    margin-top: 20px;
 }
 
 .box11{
     display: grid;
     width: 25%;
+    margin-top: 50px;
+    margin-left: 40px;
 }
 
 .box11 li{
     list-style: none;
-    padding: 5px;
-    position: relative;
-    top: 60px;
-    left: 20px;
+    padding: 10px;
 }
 
 .box12{
     display: grid;
     width: 25%;
+    margin-top: 50px;
 }
 
 .box12 li{
     list-style: none;
-    padding: 5px;
-    position: relative;
-    top: 60px;
-    left: 30px;
+    padding: 10px;
 }
 
 .box13{
@@ -341,17 +317,15 @@ body{
 .logo{
     width: 30px;
     height: 30px;
-    position: relative;
-    top: 40px;
-    left: 80px;
     padding: 5px;
+    margin-top: 50px;
 }
 
+
 .copy{
+    margin-top: 100px;
     position: relative;
-    top: 80px;
-    left: 0px;
-    float: right;
+    right: 80px;   
 }
 
 /* The animation code */
