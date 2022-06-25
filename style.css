@@ -218,7 +218,7 @@ body{
     border-radius: 2px;
     margin: auto;
     position: relative;
-    top: 40px;
+    top: 50px;
     text-align: center;
 }
 
@@ -363,7 +363,7 @@ body{
         width: 50%;
     }
     .box9{
-        width: 100%;
+        width: 50%;
     }
     .box10, .box11, .box12, .box13{
         width: 25%;
@@ -386,7 +386,7 @@ body{
     .box3, .box4{
         height: 50%;
     }    
-    .box6, .box6{
+    .box5, .box6{
         height: 50%;
     }
     .box7, .box8{
