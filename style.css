@@ -15,10 +15,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    width: 100%;
-    height: 100%;
     font-size: 18px;
-    margin: auto;
 }
 
 
@@ -29,7 +26,7 @@ body{
     width: 70%;
     height: 100%;
     margin: auto;
-    padding: 50px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -59,7 +56,7 @@ body{
     top: -10px;
     left: -30px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .page{
@@ -109,11 +106,13 @@ body{
 .box1{
     float: left;
     width: 50%;
+    height: 50%;
 }
 
 .box2{
     float: right;
     width: 50%;
+    height: 50%;
 }
 
 .together{
@@ -135,16 +134,18 @@ body{
 .box3{
     padding: 20px;
     width: 50%;
+    height: 50%;
 }
 
 .box4{
     padding: 20px;
     width: 50%;
+    height: 50%;
 }
 
 .land1{
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 10px;
 }
 
@@ -163,16 +164,18 @@ body{
 .box5{
     padding: 20px;
     width: 50%;
+    height: 50%;
 }
 
 .box6{
     padding: 20px;
     width: 50%;
+    height: 50%;
 }
 
 .land2{
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 10px;
 }
 
@@ -191,16 +194,18 @@ body{
 .box7{
     padding: 20px;
     width: 50%;
+    height: 50%;
 }
 
 .box8{
     padding: 20px;
     width: 50%;
+    height: 50%;
 }
 
 .land3{
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 10px;
 }
 
@@ -234,11 +239,12 @@ body{
 .land4{
     padding-bottom: 10px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .sub2{
     background-color: hsl(322, 100%, 66%);
+    color: hsl(0, 0%, 100%);
     padding: 10px;
     border: none;
     margin-bottom: 10px;
