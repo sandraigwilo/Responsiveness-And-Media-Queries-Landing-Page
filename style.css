@@ -30,6 +30,8 @@ body{
     height: 100%;
     margin: auto;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .build{
@@ -95,7 +97,7 @@ body{
     cursor: pointer;
     position: relative;
     top: -40px;
-    left: 500px;
+    left: 300px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
@@ -355,7 +357,7 @@ body{
     }   
     .container{
         flex-direction: row;
-        width: 100%;
+        width: 50%;
     }
     .box1, .box2{
         width: 50%;
