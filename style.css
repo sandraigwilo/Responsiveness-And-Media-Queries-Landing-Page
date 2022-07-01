@@ -320,7 +320,7 @@ body{
 
 /* Media query desktop */
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1024px) {
     body{
         background-image: url('images/bg-hero-desktop.svg');
 }
@@ -339,28 +339,10 @@ body{
 }
 
 .sub1{
-    background-color: hsl(0, 0%, 100%);
     padding: 10px;
     float: right;
     margin: 30px 50px 20px 0px;
-    border: none;
     border-radius: 20px;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-}
-
-.sub1:hover{
-    background-color: hsl(0, 11%, 95%)
-}
-
-.build{
-    background-color: hsl(193, 100%, 96%);
-    animation-name: build;
-    animation-duration: 10s;
-    animation-iteration-count: 3;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
 }
 
 .land{
@@ -374,137 +356,70 @@ body{
 .page{
     text-align: left;
     padding: 0px 65px 20px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     position: relative;
     right: 120px;
 }
 
 .sub{
-    background-color: hsl(322, 100%, 66%);
     padding: 10px;
     margin: 0px 50px 40px 10px;
-    border: none;
     border-radius: 20px;
     position: relative;
-    right: 300px;
-    cursor: pointer;
-    color: hsl(0, 0%, 100%);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-}
-
-.sub:hover{
-    background-color: hsl(322, 79%, 72%);
-}
-
-.box1{
-    width: 100%;
-}
-
-.box2{
-    width: 100%;
-}
-
-.together{
-    background-color: hsl(0, 0%, 100%);
-    animation-name: together;
-    animation-duration: 5s;
-    animation-iteration-count: 2;
-    display: grid;
+    right: 280px;
 }
 
 .grow{
     display: flex;
     flex-direction: row-reverse;
-    border: 1px solid hsl(193, 100%, 96%);
     border-radius: 10px;
     margin: 70px 40px 10px 40px;
-}
-
-.box3{
-    width: 100%;
-}
-
-.box4{
-    width: 100%;
 }
 
 .land1{
     margin: 120px 40px 10px 10px;
     text-align: left;
     padding-left: 80px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
 }
 
 .page1{
     margin: 20px;
     text-align: left;
     padding-left: 70px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
 }
 
 .flow{
-    border: 1px solid hsl(193, 100%, 96%);
     border-radius: 10px;
     margin: 10px 40px 10px 40px;
     display: flex;
 }
 
-.box5{
-    width: 100%;
-}
-
-.box6{
-    width: 100%;
-}
-
 .land2{
     margin: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     text-align: left;
     padding-top: 100px;
 }
 
 .page2{
     margin: 0px 20px 20px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     text-align: left;
     width: 70%;
 }
 
 .users{
-    border: 1px solid hsl(193, 100%, 96%);
     border-radius: 10px;
     margin: 10px 40px 10px 40px;
     display: flex;
     flex-direction: row-reverse;
 }
 
-.box7{
-    width: 100%;
-}
-
-.box8{
-    width: 100%;
-}
-
 .land3{
     margin: 120px 20px 20px 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     text-align: left;
     padding-left: 80px;
 }
 
 .page3{
     margin: 0px 20px 20px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     text-align: left;
     padding-left: 80px;
 }
@@ -534,7 +449,7 @@ body{
     margin-top: 20px;
     padding: 10px;
     position: relative;
-    right: 100px;
+    right: 30px;
 }
 
 .img5{
@@ -547,10 +462,8 @@ body{
 }
 
 .box9{
-    background-color: hsl(0, 0%, 100%);
     border: 10px solid hsl(0, 0%, 100%);
     border-radius: 6px;
-    text-align: center;
     width: 50%;
     margin: auto;
     padding: 20px;
@@ -559,38 +472,18 @@ body{
 }
 
 .land4{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     margin-bottom: 10px;
 }
 
 .sub2{
-    background-color: hsl(322, 100%, 66%);
-    color: hsl(0, 0%, 100%);
     padding: 20px;
-    border: none;
     border-radius: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-}
-
-.sub2:hover{
-    background-color: hsl(322, 79%, 72%);
 }
 
 .foot{
-    background-color: hsl(192, 100%, 9%);
-    border: 2px;
     padding: 20px;
-    color: hsl(0, 0%, 100%);
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     display: flex;
-}
-
-.box10{
-    width: 100%;
 }
 
 .image{
@@ -602,42 +495,31 @@ body{
 }
 
 .box10, .loc{
-    list-style-image: url(images/icon-location.svg);
     margin: 0px 0px 20px 30px;
 }
 
 .box10, .num{
-    list-style-image: url(images/icon-phone.svg);
     margin: 0px 0px 20px 35px;
 }
 
 .box10, .em{
-    list-style-image: url(images/icon-email.svg);
     margin: 0px 0px 10px 35px;
 }
 
 .box11{
-    width: 100%;
     margin: 110px 0px 0px 100px;
 }
 
 .box11 li{
-    list-style: none;
     padding-top: 10px;
 }
 
 .box12{
-    width: 100%;
     margin-top: 120px;
 }
 
 .box12 li{
-    list-style: none;
     padding-top: 10px;
-}
-
-.box13{
-    width: 100%;
 }
 
 .logo{
@@ -646,12 +528,8 @@ body{
     margin-top: 120px;
     padding-right: 10px;
 }
-
-
 .copy{
-    color: hsl(0, 0%, 100%);
     text-align: center;
     margin-top: 60px;   
 }
-
 }
